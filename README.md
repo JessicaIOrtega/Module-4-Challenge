@@ -1,2 +1,2 @@
-# Module-4-Challenge
-Web APIs Challenge: Code Quiz
+# Module-3-Challenge
+JavaScript Challenge: Password Generator
