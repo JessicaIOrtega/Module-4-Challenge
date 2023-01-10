@@ -1,3 +1,62 @@
-body {
-    background-color: aqua;
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#timer {
+    color: #9147ff;
+    padding-left: 10px;
+}
+
+#timerRow {
+    display: inline-flex;
+}
+
+button {
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #9147ff;
+    color: white;
+    padding: 0 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+button a:hover {
+    color: black;
+}
+
+#finalScore {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
 }
